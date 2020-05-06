@@ -1,0 +1,347 @@
+/* Servicios */
+.contenedor-servicios {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    transition: all 0.5s ease-out;
+}
+
+.item-servicios {
+    display: block;
+    width: 15%;
+    border-radius: 7px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
+    transition: all 0.2s ease-out;
+}
+
+.item-servicios:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+}
+
+.titulo-item-servicios {
+    color: #fff;
+    font-size: 20px;
+}
+
+.texto-item-servicios {
+    color: #fff;
+}
+
+.item-servicios hr {
+    display: block;
+    height: 2px;
+    background: #fff;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.diseño-web-servicio {
+    background: url(../img/servicios/servicio-depaf-diseño-web.jpg);
+    background-size: cover;
+    background-position: 0 center;
+}
+
+.posicionamiento-web-servicio {
+    background: url(../img/servicios/servicio-depaf-posicionamiento-web.jpg);
+    background-size: cover;
+    background-position: 0 center;
+}
+
+.analytics-servicio {
+    background: url(../img/servicios/servicio-depaf-analytics.jpg);
+    background-size: cover;
+    background-position: 0 center;
+}
+
+.google-maps-servicio {
+    background: url(../img/servicios/servicio-depaf-google-maps.jpg);
+    background-size: cover;
+    background-position: 0 center;
+}
+
+.redes-sociales-servicio {
+    background: url(../img/servicios/servicio-depaf-redes-sociales.jpg);
+    background-size: cover;
+    background-position: 0 center;
+}
+
+/* Quienes Somos */
+.contenedor-quienes-somos{
+    background: url(../img/depaf-quienes-somos.jpg);
+    background-size: cover;
+    background-position: 0 center;
+    width: 100%;
+}
+
+.titulo-quienes-somos {
+    display: block;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.contenedor-items-quienes-somos {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item-quienes-somos {
+    display: block;
+    width: 25%;
+    color: #fff;
+    transition: all 0.5s ease-out;
+}
+
+.icono-item-quienes-somos {
+    color:  #fff;
+    font-size: 80px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.titulo-item-quienes-somos {
+    color:  #fff;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.contenedor-items-quienes-somos hr {
+    display: block;
+    margin: 10px auto;
+    outline: none;
+    border: none;
+    height: 2px;
+    background: #fff;
+    width: 70%;
+}
+
+.texto-item-quienes-somos {
+    color:  #fff;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+/* Paquetes de Sitios Web */
+.contenedor-paquetes-sitios-web {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item-paquetes-sitios-web {
+    display: block;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
+    transition: all 0.2s ease-out;
+    border-radius: 7px;
+}
+
+.item-paquetes-sitios-web:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.contenedor-seccion1-item-paquetes-sitios-web, .contenedor-seccion2-item-paquetes-sitios-web, .contenedor-seccion3-item-paquetes-sitios-web {
+    padding: 20px;
+}
+
+.item-paquete-economico .contenedor-seccion1-item-paquetes-sitios-web {
+    border-radius: 7px 7px 0 0;
+    border-bottom: 2px solid #eee;
+    background: #445281;
+    color: #fff;
+}
+
+.item-paquete-empresarial .contenedor-seccion1-item-paquetes-sitios-web {
+    border-radius: 7px 7px 0 0;
+    border-bottom: 2px solid #eee;
+    background: #3094D1;
+    color: #fff;
+}
+
+.item-paquete-profesional .contenedor-seccion1-item-paquetes-sitios-web {
+    border-radius: 7px 7px 0 0;
+    border-bottom: 2px solid #eee;
+    background: #445281;
+    color: #fff;
+}
+
+.contenedor-seccion3-item-paquetes-sitios-web {
+    border-top: 2px solid #eee;
+}
+
+.contenedor-seccion1-item-paquetes-sitios-web h3 span {
+    font-size: 10px;
+}
+
+.contenedor-seccion2-item-paquetes-sitios-web ul li {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.contenedor-seccion2-item-paquetes-sitios-web ul li .palomita {
+    color: #27ae60;
+    margin-right: 5px;
+}
+
+.contenedor-seccion2-item-paquetes-sitios-web ul li .cruz {
+    color: #D9534F;
+    margin-right: 5px;
+}
+
+.btn-item-paquetes-sitios-web {
+    display: block;
+    margin: auto;
+    background: #1D2758;
+    color: #fff;
+    text-align: center;
+    width: 80%;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 9px 18px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.05);
+}
+
+.btn-item-paquetes-sitios-web-economico {
+    background: #445281;
+}
+
+.btn-item-paquetes-sitios-web-empresarial {
+    background: #3094D1;
+}
+
+.btn-item-paquetes-sitios-web-profesional {
+    background: #445281;
+}
+
+/* Testimonios */
+.shadow-effect {
+    background: #fff;
+    padding: 20px;
+    border-radius: 7px;
+    text-align: center;
+    border:1px solid #ECECEC;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
+}
+
+#customers-testimonials .shadow-effect p {
+    font-family: inherit;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 0 17px 0;
+    font-weight: 300;
+}
+
+.btn-testimonio {
+    margin: -17px auto 0;
+    display: table;
+    width: auto;
+    background: #3190E7;
+    padding: 9px 35px;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 9px 18px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.05);
+    transition: all 0.2s ease-out;
+}
+
+.btn-testimonio:hover {
+    background: #445281;
+}
+
+#customers-testimonials .item {
+    text-align: center;
+    padding: 50px;
+    margin-bottom:80px;
+    opacity: .2;
+    -webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#customers-testimonials .owl-item.active.center .item {
+    opacity: 1;
+    -webkit-transform: scale3d(1.0, 1.0, 1);
+    transform: scale3d(1.0, 1.0, 1);
+}
+
+.owl-carousel .owl-item img {
+    transform-style: preserve-3d;
+    max-width: 90px;
+    margin: 0 auto 17px;
+}
+
+#customers-testimonials.owl-carousel.owl-theme .owl-dots .owl-dot.active span, #customers-testimonials.owl-carousel.owl-theme .owl-dots .owl-dot:hover span {
+    background: #28CB75;
+    transform: translate3d(0px, -50%, 0px) scale(0.7);
+}
+
+#customers-testimonials.owl-carousel.owl-theme .owl-dots .owl-dot span {
+    background: #C4C4CC;
+    display: block;
+    height: 20px;
+    margin: 0 2px 5px;
+    transform: translate3d(0px, -50%, 0px) scale(0.3);
+    transform-origin: 50% 50% 0;
+    transition: all 250ms ease-out 0s;
+    width: 20px;
+}
+
+/* Mediaqueries */
+@media screen and (max-width: 1000px) {
+    .item-servicios {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .item-paquetes-sitios-web {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .item-servicios {
+        width: 40%;
+    }
+
+    .item-quienes-somos {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .item-paquetes-sitios-web {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .item-quienes-somos {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .item-servicios {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .item-paquetes-sitios-web {
+        width: 80%;
+    }
+}

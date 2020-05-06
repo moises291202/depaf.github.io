@@ -1,0 +1,327 @@
+/* Banner Principal */
+.contenedor-banner-principal {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.banner-principal-inicio {
+    background: url(../img/depaf-banner-principal-inicio.jpg);
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.titulo-banner-principal {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.info-banner-principal {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    font-size: 17px;
+}
+
+/* Menu */
+.wrapper-menu {
+    max-width: 1050px;
+    padding: 5px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+header {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: all 0.5s ease-out;
+    z-index: 9999;
+}
+
+.logo {
+    height: 60px;
+    width: 110px;
+    display: block;
+    transition: all 0.5s ease-out;
+}
+
+.menu {
+    display: flex;
+    margin-left: 40px;
+    transition: all 3s ease-out;
+}
+
+.menu a i {
+    margin-right: 5px;
+}
+
+.header .menu a {
+    color: #3094D1;
+    padding: 10px;
+    transition: all 0.2s ease-out;
+    display: block;
+}
+
+.header .menu a:hover {
+    color: #3094D1;
+    background: #fff;
+    border-radius: 20px;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.header .menu a:active {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.header .menu .btn-cerrar-menu-responsive {
+    display: none;
+}
+
+/* Header 2 */
+.header2 {
+    background: /* rgba(29, 39, 88, 0.8) */ #eee;
+    position: fixed;
+    z-index: 9999;
+    box-shadow: 0 0 15px rgba(0,0,0,.5);
+}
+
+.header2 .menu a {
+    color: #3094D1;
+    padding: 10px;
+    transition: all 0.2s ease-out;
+    display: block;
+}
+
+.header2 .menu a:hover {
+    color: #3094D1;
+    background: #fff;
+    border-radius: 20px;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.header2 .menu a:active {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.contenedor-logo-menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+/* Contenedor Enlace Idioma y Btn Menu Responsive */
+.contenedor-enlace-idioma-menu-responsive {
+    display: flex;
+    align-items: center;
+}
+
+/* Enlace Idioma */
+.enlace-idioma {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background: #fff;
+    border-radius: 20px;
+    transition: all 0.2s ease-out;
+}
+
+.enlace-idioma:hover {
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+}
+
+.enlace-idioma .flecha-enlace-idioma {
+    color: #445281;
+    margin-left: 8px;
+    transition: all 0.5s ease-out;
+}
+
+.enlace-idioma .flecha-enlace-idioma.active {
+    transform: rotate(180deg);
+    margin-top: 2px;
+}
+
+
+/* Submenu Idiomas */
+.contenedor-idioma {
+    background: #fff;
+    position: absolute;
+    margin-left: -15px;
+    width: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    opacity: 0;
+    transition: all 0.2s ease-out;
+}
+
+.contenedor-idioma:after {
+	content: "";
+    position: absolute;
+	width: 20px;	
+	height: 20px;
+	top: 100%;
+	left: 50%;
+	transform: rotate(45deg);
+    background: #fff;
+    margin-top: -50px;
+    margin-left: -10px;
+	z-index: -1;
+    display: block;
+}
+
+.contenedor-idioma a {
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-idioma a img {
+    margin-right: 5px;
+}
+
+.contenedor-idioma.active {
+    top: 90px;
+    opacity: 1;
+    transition: all 0.2s ease-out;
+}
+
+/* Btn Menu Responsive */
+.contenedor-enlace-idioma-menu-responsive .btn-menu-responsive {
+    color: #3094D1;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-left: 30px;
+    transition: all 0.2s ease-out;
+    display: none;
+}
+
+.contenedor-enlace-idioma-menu-responsive .btn-menu-responsive:hover {
+    color: #3094D1;
+    background: #fff;
+    border-radius: 20px;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.contenedor-enlace-idioma-menu-responsive .btn-menu-responsive:active {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.contenedor-enlace-idioma-menu-responsive .btn-menu-responsive.active {
+    color: #3094D1;
+    background: #fff;
+    border-radius: 20px;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+/* Tootltip Idioma*/
+.tooltip {
+    cursor: pointer;
+    position:relative;
+    text-align: center;
+}
+
+.tooltip::before {
+    opacity: 0;
+    content: attr(data-info);
+    color: white;
+    font-size: 0.8em;
+    padding: 2px 8px;
+    background: rgba(0,0,0,0.8);
+    border-radius: 5px;
+    position: absolute;
+    top: 1.5em;
+    left: 5px;
+    min-width: 100px;
+    z-index: 999;
+    margin-top: 30px;
+    margin-left: -30px;
+    transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.tooltip:hover::before {
+    opacity: 1;
+}
+
+/* Mediaqueries */
+@media screen and (max-width: 800px) {
+    .contenedor-enlace-idioma-menu-responsive .btn-menu-responsive {
+        display: block;
+    }
+
+    .menu {
+        opacity: 0;
+        transform: scale(0);
+        position: absolute;
+        background: rgba(0,0,0,0.8);
+        width: 100%;
+        left: 0;
+        top: 0;
+        margin-left: 0;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 100vh;
+        z-index: 9999;
+        transition: all 0.3s ease-out;
+        display: flex;
+    }
+
+    .menu.active {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    .header .menu a {
+        margin: auto;
+        text-align: center;
+        width: 50%;
+        font-size: 20px;
+        justify-content: center;
+    }
+
+    .header .menu .btn-cerrar-menu-responsive {
+        display: block;
+    }
+
+    .header2 .menu a {
+        margin: auto;
+        text-align: center;
+        width: 50%;
+        font-size: 20px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header .menu a {
+        width: 80%;
+    }
+
+    .header2 .menu a {
+        width: 80%;
+    }
+}
